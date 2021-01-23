@@ -26,7 +26,7 @@ b) pip freeze > requirements.txt - для выгрузки всех пакето
 
 pip install -r requirements.txt
 
-### 4.Проверяем наличие пакетов
+### 4. Проверяем наличие пакетов
 pip list
 
 В моем случае это следующие пакеты:
