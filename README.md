@@ -3,6 +3,8 @@
 
 ### Краткое описание процесса деплоя (действия, команды в консоли etc.)
 
+### 0. Регаемся в облачном сервисе PythonAnywhere 
+
 ### 1. Создаем виртуальное окружение
 
 mkvirtualenv --python=python3.8 <virtualenv_name>
@@ -140,7 +142,7 @@ cd git_repo
 
 git clone https://<git_user_name>:<pass>@github.com/<git_user_name>/<repo_name>.git
 
-### 6. Команды для миграциии моделей (сущностей) в БД и разворачивания вашего сайта-приложения на облачном сервисе PythonAnywhere
+### 6. Команды для миграциии моделей (сущностей) в БД и разворачивания вашего сайта-приложения в облачном сервисе PythonAnywhere
 Following commands, ex:
 
 (prdsite) 16:55 ~/prdsite/prdsite_proj $ python manage.py makemigrations <application_name>
@@ -156,7 +158,7 @@ python manage.py collectstatic
 ### 7. Настриваем Web-сервис | PythonAnywhere
 a) WSGI - user_name_pythonanywhere_com_wsgi.py (см. данный git-репо)
 
-b) необходимые рабочие директории (с кодом, со статикой, медиа) и др. в разеделе Web на облачном сервисе PythonAnywhere
+b) необходимые рабочие директории (с кодом, со статикой, медиа) и др. в разеделе Web в облачном сервисе PythonAnywhere
 
 ### 8. Донастраиваем settings.py под ваши нужды
 Зависит от функционала сайта.
