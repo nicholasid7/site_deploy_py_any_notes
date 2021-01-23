@@ -140,7 +140,7 @@ wheel                     0.36.2
 
 cd git_repo
 
-git clone https://<git_user_name>:<pass>@github.com/<git_user_name>/<repo_name>.git
+git clone https://<git_user_name>:<passwd>@github.com/<git_user_name>/<repo_name>.git
 
 ### 6. Команды для миграциии моделей (сущностей) в БД и разворачивания вашего сайта-приложения в облачном сервисе PythonAnywhere
 Following commands, ex:
