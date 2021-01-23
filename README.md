@@ -4,7 +4,9 @@
 ## Краткое описание процесса деплоя (действия, команды в консоли etc.)
 
 ### 1. Создаем виртуальное окружение
+
 mkvirtualenv --python=python3.8 <virtualenv_name>
+
 workon <virtualenv_name> - активация виртуального окружения
 deactivate - деактивация
 
