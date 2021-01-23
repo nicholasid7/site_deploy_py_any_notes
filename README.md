@@ -3,27 +3,27 @@
 
 ## Краткое описание процесса деплоя (действия, команды в консоли etc.)
 
-# 1. Создаем виртуальное окружение
+### 1. Создаем виртуальное окружение
 mkvirtualenv --python=python3.8 <virtualenv_name>
 workon <virtualenv_name> - активация виртуального окружения
 deactivate - деактивация
 
-# 2. Проверка инсталляции встроенного установщика пакетов и админской части  
+### 2. Проверка инсталляции встроенного установщика пакетов и админской части  
 which pip
 which django-admin.py
 
-# 3. Устанавливаем необходимые для работы вашего сайта или приложения пакеты
+### 3. Устанавливаем необходимые для работы вашего сайта или приложения пакеты
 a) pip install <имя пакета>
 или
 b) pip freeze > requirements.txt - для выгрузки всех пакетов из среды разработки
 Далее на PythonAnywhere, запускаем
 pip install -r requirements.txt
 
-# #4.Проверяем наличие пакетов
+### 4.Проверяем наличие пакетов
 pip list
 
-В моем случае это:
------ ----- ----- ----- -----
+В моем случае это следующие пакеты:
+#----- ----- ----- ----- -----
 appdirs                   1.4.4
 asgiref                   3.3.1
 attrs                     20.3.0
@@ -70,9 +70,9 @@ virtualenv                20.4.0
 virtualenv-clone          0.5.4
 virtualenvwrapper         4.8.4
 wheel                     0.36.2
------ ----- ----- ----- -----
+#----- ----- ----- ----- -----
 
-# 5. Клонируем git-репо с вашим проектом или копируем все файлы вручную на сервис PythonAnywhere
+### 5. Клонируем git-репо с вашим проектом или копируем все файлы вручную на сервис PythonAnywhere
 #Cloning your Git Repository
 а) git clone https://github.com/<git_user_name>/<repo_name>.git
 
@@ -81,7 +81,7 @@ wheel                     0.36.2
 cd git_repo
 git clone https://<git_user_name>:<pass>@github.com/<git_user_name>/<repo_name>.git
 
-# 6. Команды для миграциии моделей (сущностей) в БД и разворачивания вашего сайта-приложения на облачном сервисе PythonAnywhere
+### 6. Команды для миграциии моделей (сущностей) в БД и разворачивания вашего сайта-приложения на облачном сервисе PythonAnywhere
 Following commands, ex:
 (prdsite) 16:55 ~/prdsite/prdsite_proj $ python manage.py makemigrations <application_name>
 (prdsite) 16:55 ~/prdsite/prdsite_proj $ python manage.py migrate
@@ -90,14 +90,14 @@ Following commands, ex:
 
 python manage.py collectstatic
 
-# 7. Настриваем Web-сервис | PythonAnywhere
+### 7. Настриваем Web-сервис | PythonAnywhere
 a) WSGI - user_name_pythonanywhere_com_wsgi.py (см. данный git-репо)
 b) необходимые рабочие директории (с кодом, со статикой, медиа) и др. в разеделе Web на облачном сервисе PythonAnywhere
 
-# 8. Донастраиваем settings.py под ваши нужды
+### 8. Донастраиваем settings.py под ваши нужды
 Зависит от функционала сайта.
 
-# 9. Пример получившегося деплоя сайта-блога
+### 9. Пример получившегося деплоя сайта-блога
 nicholasid7.pythonanywhere.com
 
 Всем, peace! 
