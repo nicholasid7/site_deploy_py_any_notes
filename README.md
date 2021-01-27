@@ -3,7 +3,7 @@
 
 ### Краткое описание процесса деплоя (действия, команды в консоли etc.)
 
-### 0. Регаемся в облачном сервисе PythonAnywhere 
+### 0. Регаемся в облачном сервисе PythonAnywhere 
 
 ### 1. Создаем виртуальное окружение
 
@@ -12,7 +12,7 @@ mkvirtualenv --python=python3.8 <virtualenv_name>
 workon <virtualenv_name> - активация виртуального окружения
 deactivate - деактивация
 
-### 2. Проверка инсталляции встроенного установщика пакетов и админской части  
+### 2. Проверка инсталляции встроенного установщика пакетов и админской части  
 which pip
 
 which django-admin.py
@@ -35,97 +35,97 @@ pip list
 
 #----- ----- ----- ----- -----
 
-appdirs                   1.4.4
+appdirs                   1.4.4
 
-asgiref                   3.3.1
+asgiref                   3.3.1
 
-attrs                     20.3.0
+attrs                     20.3.0
 
-bcrypt                    3.2.0
+bcrypt                    3.2.0
 
-certifi                   2020.12.5
+certifi                   2020.12.5
 
-cffi                      1.14.4
+cffi                      1.14.4
 
-chardet                   4.0.0
+chardet                   4.0.0
 
-cryptography              3.3.1
+cryptography              3.3.1
 
-defusedxml                0.7.0rc2
+defusedxml                0.7.0rc2
 
-distlib                   0.3.1
+distlib                   0.3.1
 
-Django                    3.1.5
+Django                    3.1.5
 
-django-appconf            1.0.4
+django-appconf            1.0.4
 
-django-bootstrap-toolkit  2.15.0
+django-bootstrap-toolkit  2.15.0
 
-django-bootstrap3         14.2.0
+django-bootstrap3         14.2.0
 
-django-crispy-forms       1.10.0
+django-crispy-forms       1.10.0
 
-django-forms-bootstrap    3.1.0
+django-forms-bootstrap    3.1.0
 
 django-registration-redux 2.9
 
-django-taggit             1.3.0
+django-taggit             1.3.0
 
-django-user-accounts      3.0.2
+django-user-accounts      3.0.2
 
-filelock                  3.0.12
+filelock                  3.0.12
 
-idna                      2.10
+idna                      2.10
 
-jsonschema                3.2.0
+jsonschema                3.2.0
 
-Markdown                  3.3.3
+Markdown                  3.3.3
 
-oauthlib                  3.1.0
+oauthlib                  3.1.0
 
-pbr                       5.5.1
+pbr                       5.5.1
 
-Pillow                    8.1.0
+Pillow                    8.1.0
 
-pip                       20.3.3
+pip                       20.3.3
 
-psycopg2                  2.8.6
+psycopg2                  2.8.6
 
-pycparser                 2.20
+pycparser                 2.20
 
-PyJWT                     2.0.1
+PyJWT                     2.0.1
 
-pyrsistent                0.17.3
+pyrsistent                0.17.3
 
-python3-openid            3.2.0
+python3-openid            3.2.0
 
-pytz                      2020.5
+pytz                      2020.5
 
-requests                  2.25.1
+requests                  2.25.1
 
-requests-oauthlib         1.3.0
+requests-oauthlib         1.3.0
 
-setuptools                51.3.3
+setuptools                51.3.3
 
-six                       1.15.0
+six                       1.15.0
 
-social-auth-app-django    4.0.0
+social-auth-app-django    4.0.0
 
-social-auth-core          3.3.3
+social-auth-core          3.3.3
 
-sqlparse                  0.4.1
+sqlparse                  0.4.1
 
-stevedore                 3.3.0
+stevedore                 3.3.0
 
-urllib3                   1.26.2
+urllib3                   1.26.2
 
-virtualenv                20.4.0
+virtualenv                20.4.0
 
-virtualenv-clone          0.5.4
+virtualenv-clone          0.5.4
 
-virtualenvwrapper         4.8.4
+virtualenvwrapper         4.8.4
 
-wheel                     0.36.2
+wheel                     0.36.2
 
 #----- ----- ----- ----- -----
 
@@ -142,7 +142,7 @@ cd git_repo
 
 git clone https://<git_user_name>:<git_pass> @github.com/<git_user_name>/<repo_name>.git
 
-### 6. Команды для миграциии моделей (сущностей) в БД и разворачивания вашего сайта-приложения в облачном сервисе PythonAnywhere
+### 6. Команды для миграции моделей (сущностей) в БД и разворачивания вашего сайта-приложения в облачном сервисе PythonAnywhere
 Following commands, ex:
 
 (prdsite) 16:55 ~/prdsite/prdsite_proj $ python manage.py makemigrations <application_name>
@@ -155,12 +155,12 @@ Following commands, ex:
 
 python manage.py collectstatic
 
-### 7. Настриваем Web-сервис | PythonAnywhere
+### 7. Настраиваем Web-сервис | PythonAnywhere
 a) WSGI - user_name_pythonanywhere_com_wsgi.py (см. данный git-репо)
 
-b) необходимые рабочие директории (с кодом, со статикой, медиа) и др. в разеделе Web в облачном сервисе PythonAnywhere
+b) необходимые рабочие директории (с кодом, со статикой, медиа) и др. в разделе Web в облачном сервисе PythonAnywhere
 
-### 8. Донастраиваем settings.py под ваши нужды
+### 8. Настраиваем settings.py под ваши нужды
 Зависит от функционала сайта.
 
 ### 9. Пример получившегося деплоя сайта-блога
