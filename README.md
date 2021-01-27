@@ -1,6 +1,9 @@
 # site_deploy_py_any_notes
 ## Деплой Django сайта на PythonAnywhere
 
+Видео с некоторыми деталями деплоя и конфигурирования вашего сайта:
+[![NoIco](http://www.sherpis.com/prdsite/static/mblog/images/yt.thumb.png)](https://youtu.be/MTBgioO0XcM)
+
 ### Краткое описание процесса деплоя (действия, команды в консоли etc.)
 
 ### 0. Регаемся в облачном сервисе PythonAnywhere 
