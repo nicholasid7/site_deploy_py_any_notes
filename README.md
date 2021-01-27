@@ -31,103 +31,105 @@ pip install -r requirements.txt
 ### 4. Проверяем наличие пакетов
 pip list
 
-В моем случае это следующие пакеты:
+<details>
+  <summary>В моем случае это следующие основные пакеты:</summary>
+<ui>
+<li>appdirs 1.4.4</li>
 
-#----- ----- ----- ----- -----
+<li>asgiref 3.3.1</li>
 
-appdirs                   1.4.4
+<li>attrs 20.3.0</li>
 
-asgiref                   3.3.1
+<li>bcrypt 3.2.0</li>
 
-attrs                     20.3.0
+<li>certifi 2020.12.5</li>
 
-bcrypt                    3.2.0
+<li>cffi 1.14.4</li>
 
-certifi                   2020.12.5
+<li>chardet 4.0.0</li>
 
-cffi                      1.14.4
+<li>cryptography 3.3.1</li>
 
-chardet                   4.0.0
+<li>defusedxml 0.7.0rc2</li>
 
-cryptography              3.3.1
+<li>distlib 0.3.1</li>
 
-defusedxml                0.7.0rc2
+<li>Django 3.1.5</li>
 
-distlib                   0.3.1
+<li>django-appconf 1.0.4</li>
 
-Django                    3.1.5
+<li>django-bootstrap-toolkit 2.15.0</li>
 
-django-appconf            1.0.4
+<li>django-bootstrap3 14.2.0</li>
 
-django-bootstrap-toolkit  2.15.0
+<li>django-crispy-forms 1.10.0</li>
 
-django-bootstrap3         14.2.0
+<li>django-forms-bootstrap 3.1.0</li>
 
-django-crispy-forms       1.10.0
+<li>django-registration-redux 2.9</li>
 
-django-forms-bootstrap    3.1.0
+<li>django-taggit 1.3.0</li>
 
-django-registration-redux 2.9
+<li>django-user-accounts 3.0.2</li>
 
-django-taggit             1.3.0
+<li>filelock 3.0.12</li>
 
-django-user-accounts      3.0.2
+<li>idna 2.10</li>
 
-filelock                  3.0.12
+<li>jsonschema 3.2.0</li>
 
-idna                      2.10
+<li>Markdown 3.3.3</li>
 
-jsonschema                3.2.0
+<li>oauthlib 3.1.0</li>
 
-Markdown                  3.3.3
+<li>pbr 5.5.1</li>
 
-oauthlib                  3.1.0
+<li>Pillow 8.1.0</li>
 
-pbr                       5.5.1
+<li>pip 20.3.3</li>
 
-Pillow                    8.1.0
+<li>psycopg2 2.8.6</li>
 
-pip                       20.3.3
+<li>pycparser 2.20</li>
 
-psycopg2                  2.8.6
+<li>PyJWT 2.0.1</li>
 
-pycparser                 2.20
+<li>pyrsistent 0.17.3</li>
 
-PyJWT                     2.0.1
+<li>python3-openid 3.2.0</li>
 
-pyrsistent                0.17.3
+<li>pytz 2020.5</li>
 
-python3-openid            3.2.0
+<li>requests 2.25.1</li>
 
-pytz                      2020.5
+<li>requests-oauthlib 1.3.0</li>
 
-requests                  2.25.1
+<li>setuptools 51.3.3</li>
 
-requests-oauthlib         1.3.0
+<li>six 1.15.0</li>
 
-setuptools                51.3.3
+<li>social-auth-app-django 4.0.0</li>
 
-six                       1.15.0
+<li>social-auth-core 3.3.3</li>
 
-social-auth-app-django    4.0.0
+<li>sqlparse 0.4.1</li>
 
-social-auth-core          3.3.3
+<li>stevedore 3.3.0</li>
 
-sqlparse                  0.4.1
+<li>urllib3 1.26.2</li>
 
-stevedore                 3.3.0
+<li>virtualenv 20.4.0</li>
 
-urllib3                   1.26.2
+<li>virtualenv-clone 0.5.4</li>
 
-virtualenv                20.4.0
+<li>virtualenvwrapper 4.8.4</li>
 
-virtualenv-clone          0.5.4
+<li>wheel 0.36.2</li>
 
-virtualenvwrapper         4.8.4
+</ui>
 
-wheel                     0.36.2
+</details>
 
-#----- ----- ----- ----- -----
 
 ### 5. Клонируем git-репо с вашим проектом или копируем все файлы вручную на сервис PythonAnywhere
 #Cloning your Git Repository
